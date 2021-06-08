@@ -1,0 +1,28 @@
+#off_part{
+    margin-top: 100px;
+    .left_banner{
+        background: url(../../../images/off_left_nammer.png) no-repeat center;
+        background-size: cover;
+        padding: 110px 0 130px 115px;   
+      
+    }
+    .right_banner{
+        background: url(../../../images/off_right_banner.png) no-repeat center;
+        background-size: cover;
+        padding: 110px 0 130px 115px;   
+    }
+
+    p{
+        font-family: $heading-font-family;
+        font-weight: $regular-font-weight;
+        font-size: 14px;
+        color: $seconderycolor;
+    }
+    h2{
+        font-family: $heading-font-family;
+        font-weight: $bold-font-weight;
+        color: $seconderycolor;
+        font-size: 36px;
+        width: 253px;
+    }
+}

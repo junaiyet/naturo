@@ -1,0 +1,22 @@
+@mixin button {
+    
+    .btn {
+        a {
+            padding: 20px 40px;
+            background: $seconderycolor;
+            border-radius: 50px;
+            font-family: $heading-font-family;
+            font-weight: $medium-font-weight;
+            font-size: 16px;
+            color: $prymaricolor;
+    
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+
+} 
+
+
+

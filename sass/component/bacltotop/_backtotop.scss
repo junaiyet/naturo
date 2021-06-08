@@ -1,0 +1,37 @@
+// .backtotop{  
+
+//         i {
+//             padding: 20px 40px;
+//             background: $seconderycolor;
+//             border-radius: 50px;
+//             font-family: $heading-font-family;
+//             font-weight: $medium-font-weight;
+//             font-size: 16px;
+//             color: $prymaricolor;
+//         }
+
+// }
+.backtotop {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: transparent;
+    color: $seconderycolor;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid $prymaricolor;
+ text-align: center;
+ line-height: 110px;
+ display: none;
+    i{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: $prymaricolor;
+        color: $seconderycolor;
+        text-align: center;
+        line-height: 80px;
+    }
+  
+}

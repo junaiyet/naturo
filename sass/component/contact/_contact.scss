@@ -1,0 +1,52 @@
+#contact_part {
+    margin-top: 100px;
+
+    .contact_banner {
+        background: url(../../../images/contuct_banner.png) no-repeat center;
+        background-size: cover;
+        .overlay{
+            width: 100%;
+            height: 100%;
+            background:rgba(159, 151, 79,.8) ;
+            padding: 80px 100px;
+            .detals{
+                color: $seconderycolor;
+                font-family: $heading-font-family;
+                p{
+                    
+                    font-weight: $regular-font-weight;
+                    font-size: 14px;
+             
+
+                }
+                h2{
+                    font-family: $heading-font-family;
+                    font-weight: $bold-font-weight;
+                   
+                    font-size: 30px; 
+                    line-height: 10px;
+                }
+            }
+            .button{
+                text-align: right;
+                .btn {
+
+                    a {
+                        padding: 20px 40px;
+                        background: $seconderycolor;
+                        border-radius: 50px;
+                        font-family: $heading-font-family;
+                        font-weight: $medium-font-weight;
+                        font-size: 16px;
+                        color: $prymaricolor;
+    
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+       
+        }
+    }
+}

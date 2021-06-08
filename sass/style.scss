@@ -1,0 +1,24 @@
+// variable
+
+@import "./variables/color";
+@import "./variables/font";
+
+
+
+
+// mixin
+
+@import "./mixin/media";
+@import "./mixin/button";
+
+
+// common scss
+@import "./common";
+
+
+
+// home
+@import "./page/home";
+
+// about
+@import "./page/about";

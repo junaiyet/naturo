@@ -1,0 +1,131 @@
+#guides_part {
+    margin-top: 100px;
+
+    .item {
+        margin-top: 50px;
+        padding: 40px;
+        background: transparent;
+
+
+        border-radius: 100px;
+        transition: .4s;
+
+        &:hover {
+            background: $seconderycolor;
+       
+            box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.35);
+        }
+
+        &:hover .round {
+            border: 0px solid $prymaricolor;
+        }
+
+        &:hover .icon {
+            opacity: 1 !important;
+        }
+
+        &:hover .icon_top {
+            opacity: 0 !important;
+        }
+
+        .round {
+            width: 286px;
+            height: 286px;
+            background: transparent;
+            border: 1px solid $prymaricolor;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            transition: .4s;
+
+            .img {
+                width: 240px;
+                height: 240px;
+                border-radius: 50%;
+                position: relative;
+
+                .icon {
+                    position: absolute;
+                    left: 65%;
+                    width: 100%;
+                    transform: translateX(-50%);
+                    top: -30px;
+                    opacity: 0;
+                    transition: .4s;
+
+                    i {
+                        width: 50px;
+                        height: 50px;
+                        line-height: 50px;
+                        background: $seconderycolor;
+                        text-align: center;
+                        border-radius: 50%;
+                        font-size: 14px;
+                        color: $prymaricolor;
+                    }
+
+                    .left_icon {
+                        transform: translateY(30%);
+                    }
+
+                    .right_icon {
+                        transform: translateY(30%);
+
+                    }
+
+                }
+
+                .icon_top {
+                    position: absolute;
+                    top: -55px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75px;
+                    height: 75px;
+                    background: rgba(159, 151, 79, .5);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    opacity: 1;
+                    transition: .4s;
+
+                    i {
+                        width: 50px;
+                        height: 50px;
+                        background: $prymaricolor;
+                        border-radius: 50%;
+                        color: $seconderycolor;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .text {
+            text-align: center;
+            margin-top: 50px;
+
+            h2 {
+                font-family: $heading-font-family;
+                font-weight: $bold-font-weight;
+                font-size: 24px;
+                color: $prymaricolor;
+            }
+
+            p {
+                font-family: $heading-font-family;
+                font-weight: $regular-font-weight;
+                font-size: 14px;
+                color: #686242;
+            }
+        }
+    }
+}

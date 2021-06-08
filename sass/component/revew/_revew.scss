@@ -1,0 +1,70 @@
+#revew_part{
+    background: $backrouncolor;
+    padding: 100px 0;
+    margin-top: 100px;
+    .img{
+        img{
+            width: 100%;
+        }
+    }
+    .text{
+        text-align: left;
+        margin-left: 40px;
+        font-family: $heading-font-family;
+        position: relative;
+        .dots{
+            position: absolute;
+            left: 250px;
+            top: 40px;
+        
+         
+        }
+        h3{
+         
+            font-weight: $regular-font-weight;
+            font-size: 18px;
+            color: $pcolor;
+        }
+        h1{
+         
+            font-weight: $bold-font-weight;
+            font-size: 48px;
+            color: $prymaricolor;
+            margin-top: 30px;
+            padding-right: 50px;
+            line-height: 60px;
+        }
+        .icon{
+            i{
+                font-size: 18px;
+                color: $fontclor;
+            }
+        }
+        p{
+            font-weight: $regular-font-weight;
+            font-size: 18px;
+            color: $pcolor;
+            padding-top: 25px;
+            width: 601px;
+        }
+        h2{
+            font-weight: $bold-font-weight;
+            font-size: 24px;
+            color: $prymaricolor; 
+            margin-top: 30px;
+        }
+        span{
+            font-weight: $Light-font-weight;
+            font-size: 14px;
+            color: $pcolor;
+            margin-top: 10px;
+        }
+
+    }
+    .brand{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 140px;
+
+    }
+}
