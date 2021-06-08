@@ -122,4 +122,142 @@ footer {
         font-size: 16px;
         background: $prymaricolor;
     }
+    @include small{
+        .footer_banner{
+            text-align: center;
+            padding-bottom: 70px;
+        }
+     .footer_banner .logo form input {
+            width: 277px;
+           
+            padding-left: 20px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+     .footer_banner .logo form button {
+ 
+            
+            top: 6px;
+    
+            font-size: 13px;
+         
+        }
+        .qustion{
+            margin-top: 40px;
+           
+        }
+   .footer_banner .qustion h2 {
+        
+            font-size: 25px;
+            
+        }
+        .service{
+            margin-top: 40px;
+        }
+   .service .list ul {
+            margin-left: -30px;
+            text-align: left;
+        }
+        footer .footer_bottom {
+            padding: 25px 0;
+        
+        }
+    }
+    @include mediam{
+        .footer_banner{
+         
+            padding-bottom: 70px;
+        }
+     .footer_banner .logo form input {
+          
+            font-size: 12px;
+        }
+     .footer_banner .logo form button {
+ 
+            
+         
+    
+            font-size: 13px;
+         
+        }
+        .qustion{
+            margin-top: 40px;
+           
+        }
+
+        .service{
+            margin-top: 40px;
+        }
+   .service .list ul {
+            margin-left: -30px;
+            text-align: left;
+        }
+        footer .footer_bottom {
+            padding: 25px 0;
+        
+        }
+        footer .footer_banner .service .list ul li a {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-family: "Farro", sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #bab6a2;
+        }
+    }
+    @include learg{
+        .footer_banner{
+         
+            padding-bottom: 70px;
+        }
+   
+ 
+        .qustion{
+            margin-top: 40px;
+           
+        }
+
+        .service{
+            margin-top: 40px;
+        }
+   .service .list ul {
+            margin-left: -30px;
+            text-align: left;
+        }
+        footer .footer_bottom {
+            padding: 25px 0;
+        
+        }
+        footer .footer_banner .service .list ul li a {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-family: "Farro", sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #bab6a2;
+        }
+    }
+    @include Elarge{
+      .footer_banner {
+          
+            padding-bottom: 100px;
+        }
+     .footer_banner .service .list {
+        
+            justify-content: space-around;
+        }
+        .footer_banner .qustion h2 {
+          
+            font-size: 18px;
+           
+        }
+        .footer_banner .service h2{
+            font-size: 18px;
+        }
+     .footer_banner .qustion h1 {
+         
+            font-size: 28px;
+       
+        }
+    }
 }

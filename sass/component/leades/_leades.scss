@@ -77,4 +77,19 @@
         }
 
     }
+    @include small{
+       .item {
+          margin-bottom: 30px;
+        }
+    }
+    @include mediam{
+       .item {
+          margin-bottom: 30px;
+        }
+    }
+    @include learg{
+       .item {
+          margin-bottom: 30px;
+        }
+    }
 }

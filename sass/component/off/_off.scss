@@ -25,4 +25,69 @@
         font-size: 36px;
         width: 253px;
     }
+    @include small{
+        .left_banner{
+            padding: 0px 0 0px 30px;
+
+        }
+        .right_banner{
+            padding: 110px 0 99px 30px; 
+        }
+        #off_part p {
+          
+            font-size: 13px;
+          
+            padding-top: 30px;
+        }
+        #off_part h2 {
+         
+            font-size: 28px;
+           
+         
+          
+        }
+    }
+    @include mediam{
+        .left_banner{
+            padding: 110px 0 60px 60px;
+            margin-bottom: 40px;
+        }
+        .right_banner{
+            padding: 110px 0 60px 60px; 
+        }
+        // #off_part p {
+          
+        //     font-size: 13px;
+          
+        //     padding-top: 30px;
+        // }
+        // #off_part h2 {
+         
+        //     font-size: 28px;
+           
+         
+          
+        // }
+    }
+    @include learg{
+        .left_banner{
+            padding: 110px 0 60px 60px;
+            margin-bottom: 40px;
+        }
+        .right_banner{
+            padding: 110px 0 60px 60px; 
+        }
+     
+    }
+    @include Elarge{
+        .left_banner{
+            padding: 110px 0 115px 30px;
+            margin-bottom: 40px;
+        }
+        .right_banner{
+            padding: 110px 0 115px 30px;
+        }
+     
+    }
 }
+

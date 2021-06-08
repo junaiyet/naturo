@@ -1,32 +1,37 @@
-#revew_part{
+#revew_part {
     background: $backrouncolor;
     padding: 100px 0;
     margin-top: 100px;
-    .img{
-        img{
+
+    .img {
+        img {
             width: 100%;
         }
     }
-    .text{
+
+    .text {
         text-align: left;
         margin-left: 40px;
         font-family: $heading-font-family;
         position: relative;
-        .dots{
+
+        .dots {
             position: absolute;
             left: 250px;
             top: 40px;
-        
-         
+
+
         }
-        h3{
-         
+
+        h3 {
+
             font-weight: $regular-font-weight;
             font-size: 18px;
             color: $pcolor;
         }
-        h1{
-         
+
+        h1 {
+
             font-weight: $bold-font-weight;
             font-size: 48px;
             color: $prymaricolor;
@@ -34,26 +39,31 @@
             padding-right: 50px;
             line-height: 60px;
         }
-        .icon{
-            i{
+
+        .icon {
+            i {
                 font-size: 18px;
                 color: $fontclor;
             }
         }
-        p{
+
+        p {
             font-weight: $regular-font-weight;
             font-size: 18px;
             color: $pcolor;
             padding-top: 25px;
             width: 601px;
+            line-height: 30px;
         }
-        h2{
+
+        h2 {
             font-weight: $bold-font-weight;
             font-size: 24px;
-            color: $prymaricolor; 
+            color: $prymaricolor;
             margin-top: 30px;
         }
-        span{
+
+        span {
             font-weight: $Light-font-weight;
             font-size: 14px;
             color: $pcolor;
@@ -61,10 +71,133 @@
         }
 
     }
-    .brand{
+
+    .brand {
         display: flex;
         justify-content: space-between;
         margin-top: 140px;
 
+    }
+
+    @include small {
+        .text h3 {
+
+            margin-top: 29px;
+        }
+
+        .text h1 {
+            font-weight: 700;
+            font-size: 29px;
+            color: #9f974f;
+            margin-top: 30px;
+            padding-right: 50px;
+            line-height: 45px;
+        }
+
+        .text p {
+
+            width: auto;
+        }
+
+        .brand {
+
+            display: inline-block;
+
+            margin-top: 30px;
+            text-align: center;
+        }
+        .alignmentl{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @include mediam {
+        .item {
+
+            margin-bottom: 40px;
+        }
+
+        .text h3 {
+
+            margin-top: 29px;
+        }
+
+        .text h1 {
+
+            font-size: 37px;
+            margin-bottom: 10px;
+            line-height: 45px;
+        }
+
+        .text p {
+
+            width: auto;
+        }
+
+        .brand {
+
+            margin-top: 60px;
+        }
+
+        .img {
+            padding: 0 10px;
+        }
+
+    }
+
+    @include learg {
+        .item {
+
+            margin-bottom: 40px;
+        }
+
+        .text h3 {
+
+            margin-top: 29px;
+        }
+
+        .text h1 {
+
+            font-size: 46px;
+            margin-bottom: 10px;
+            line-height: 45px;
+        }
+
+        .text p {
+
+            width: auto;
+        }
+
+        .brand {
+
+            margin-top: 60px;
+        }
+
+        .img {
+            padding: 0 10px;
+        }
+
+    }
+
+    @include Elarge {
+       
+        .text p{
+            width: auto;
+           padding-top: 0;
+           font-size: 13px;
+        }
+    .text h1 {
+            font-size: 41px;
+          
+           margin-top: 0;
+           line-height: 45px;
+        }
+     .text h2 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #9f974f;
+            margin-top: 30px;
+        }
     }
 }

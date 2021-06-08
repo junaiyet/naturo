@@ -50,5 +50,56 @@
         }
 
     }
+    @include small{
+        .img{
+            img{
+                width: auto;
+            }
+        }
+        .details {
+            h1{
+                font-size: 22px;
+                width:  auto;
+            }
+        }
+    }
+    @include mediam{
+        .img{
+            img{
+                width: auto;
+            }
+        }
+        .details {
+            h1{
+              font-size: 39px;
+                width:  auto;
+            }
+           
+        }
+       .details p {
+        
+            width: auto;
+         
+        }
+    }
+    @include Elarge{
+        .img{
+            img{
+                width: auto;
+            }
+        }
+        .details {
+            h1{
+              font-size: 39px;
+                width:  auto;
+            }
+           
+        }
+       .details p {
+        
+            width: auto;
+         
+        }
+    }
 
 }

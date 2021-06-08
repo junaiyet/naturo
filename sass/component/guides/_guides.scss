@@ -128,4 +128,15 @@
             }
         }
     }
+    @include small{
+        .item{
+            padding: 40px 0;
+        }
+    }
+    @include Elarge{
+        .item{
+            padding: 40px 0;
+        }
+    }
+
 }

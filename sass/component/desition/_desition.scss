@@ -52,6 +52,57 @@
 
   }
 
-   
+   @include small{
+       margin-top: 150px;
+    .desition_border .item{
+         justify-content: center;
+         padding-bottom: 30px;
+         p{
+             width: auto;
+         }
+         .text{
+             h4{
+                margin-top: 20px;
+                text-align: center;
+             }
+         }
+     }
+   }
+   @include small{
+       margin-top: 150px;
+    .desition_border .item{
+         justify-content: center;
+         padding-bottom: 30px;
+         p{
+             width: auto;
+         }
+         .text{
+             h4{
+                margin-top: 20px;
+                text-align: center;
+             }
+         }
+     }
+   }
+   @include mediam{
+       margin-top: 200px;
+        .desition_border .item {
+ 
+        padding-bottom: 50px;
+    }
+    .desition_border .item .text {
+        width: 70%;
+    }
+   }
+   @include learg{
+       margin-top: 250px;
+        .desition_border .item {
+ 
+        padding-bottom: 50px;
+    }
+    .desition_border .item .text {
+        width: 80%;
+    }
+   }
 
 }

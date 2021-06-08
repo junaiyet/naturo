@@ -27,6 +27,40 @@ $(".banner-img-slider").slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        prevArrow:'<span><i class="fas fa-arrow-left up"></i></span>',
+        nextArrow:'<span class="adn"><i class="fas fa-arrow-right down"></i></i></span>',
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow:'<span><i class="fas fa-arrow-left up"></i></span>',
+        nextArrow:'<span class="adn"><i class="fas fa-arrow-right down"></i></i></span>',
+      }
+    },
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow:'<span><i class="fas fa-arrow-left up"></i></span>',
+        nextArrow:'<span class="adn"><i class="fas fa-arrow-right down"></i></i></span>',
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 })
 $('.offer_slider').slick({
     dots: false,
@@ -40,26 +74,43 @@ $('.offer_slider').slick({
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1199,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false,
+          prevArrow:'<span><i class="fas fa-arrow-left up"></i></span>',
+          nextArrow:'<span class="adn"><i class="fas fa-arrow-right down"></i></i></span>',
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 991,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+          prevArrow:'<span><i class="fas fa-arrow-left up"></i></span>',
+          nextArrow:'<span class="adn"><i class="fas fa-arrow-right down"></i></i></span>',
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          prevArrow:'<span><i class="fas fa-arrow-left up"></i></span>',
+          nextArrow:'<span class="adn"><i class="fas fa-arrow-right down"></i></i></span>',
+        }
+      },
+      {
+        breakpoint: 575,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          prevArrow:'<span><i class="fas fa-arrow-left up"></i></span>',
+          nextArrow:'<span class="adn"><i class="fas fa-arrow-right down"></i></i></span>',
         }
       }
       // You can unslick at a given breakpoint now by adding:
